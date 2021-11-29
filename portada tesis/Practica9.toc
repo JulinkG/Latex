@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{Agradecimientos}{III}{}%
+\contentsline {chapter}{Resumen}{V}{}%
+\contentsline {chapter}{Lista de figuras}{1}{}%
+\contentsline {chapter}{\numberline {1}Un primer encuentro con la teoría de los juegos}{1}{}%

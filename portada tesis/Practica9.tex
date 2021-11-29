@@ -1,0 +1,168 @@
+\documentclass[12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{booktabs}
+
+\usepackage[spanish,es-tabla]{babel}
+\parindent=0cm %modificar tamaño de sangria 
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,latexsym,cancel}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{array}
+\usepackage{longtable}
+\newcolumntype{E}{>{$}c<{$}}
+\setcounter{MaxMatrixCols}{40}
+\usepackage{bm}
+\usepackage[lmargin=2cm,rmargin=2cm,top=2cm,
+bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\fancyhf{}
+
+\lfoot[\thepage]{}
+\rfoot[]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{
+
+
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+\pagestyle{fancy}
+
+
+\setcounter{tocdepth}{4} % para que añadir las secciones en el índice...
+
+%---->%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{titlepage}
+\begin{minipage}[c]{4cm}
+\includegraphics[scale=.2]{figuras/cuadro.png} 
+\end{minipage}
+\begin{minipage}[c]{10cm}
+\begin{center}
+\huge Universidad Autónoma "Benito Juárez" de Oaxaca 
+\end{center}
+\end{minipage}
+\begin{minipage}[c]{3cm}
+\includegraphics[scale=.5]{figuras/infinito.png} 
+\end{minipage}
+
+\vspace{1cm}
+\begin{minipage}[c]{3cm}
+\hspace{.5cm}
+\vrule width0.3mm height18cm
+\hspace{0.07cm}
+\vrule width1mm height18cm
+\hspace{0.5cm}
+\vrule width0.3mm height18cm
+\hspace{0.07cm}
+\vrule width1mm height18cm
+\end{minipage}
+\begin{minipage}[t]{11cm}
+\begin{center}
+
+\vspace{-9cm}
+
+\huge Facultad de Economía
+
+\vspace{1 cm}
+
+\LARGE \textit{Guerra de precios: Un enfoque en teoría de juegos}
+
+\vspace{1cm}
+
+\huge TESIS
+
+\vspace{.5cm}
+
+\LARGE Que para obtener el título de:
+
+\vspace{.5cm}
+
+\textbf{\LARGE Licenciado en economía }
+
+\vspace{.5cm}
+
+\LARGE Presenta:
+
+\vspace{.5cm}
+
+\LARGE Julián Eduardo Mena Chávez
+
+\vspace{1cm}
+
+\LARGE Director de tesis:
+
+\vspace{.5cm}
+
+\LARGE Claudia González 
+
+\vspace{1cm}
+
+\large Oaxaca de Juárez, Oax. , 13 de Abril de 2021
+
+
+\end{center}
+\end{minipage}
+\end{titlepage}
+\newpage
+$\ $
+\thispagestyle{empty} % para que no se numere esta pagina
+
+\pagenumbering{Roman} % para comenzar la numeracion de paginas en numeros romanos
+\begin{flushright}
+\textit{ A mi hermanita Diana\\
+clara motivación de mis días}
+\end{flushright}
+\newpage
+$\ $
+\thispagestyle{empty} % para que no se numere esta pagina
+
+\chapter*{Agradecimientos} % si no queremos que añada la palabra "Capitulo"
+\addcontentsline{toc}{chapter}{Agradecimientos} % si queremos que aparezca en el índice
+\markboth{AGRADECIMIENTOS}{AGRADECIMIENTOS} % encabezado
+ 
+
+\newpage
+
+$\ $
+\thispagestyle{empty} % para que no se numere esta pagina
+
+\chapter*{Resumen} % si no queremos que añada la palabra "Capitulo"
+\addcontentsline{toc}{chapter}{Resumen} % si queremos que aparezca en el índice
+\markboth{RESUMEN}{RESUMEN} % encabezado
+
+
+\newpage
+$\ $
+\thispagestyle{empty} % para que no se numere esta pagina
+
+\tableofcontents % indice de contenidos
+\newpage
+$\ $
+\thispagestyle{empty} % para que no se numere esta pagina
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de figuras} % para que aparezca en el indice de contenidos
+
+
+\chapter{Un primer encuentro con la teoría de los juegos}\label{cap.introduccion}
+\pagenumbering{arabic}
+
+
+
+
+
+\newpage
+
+
+
+\end{document}
